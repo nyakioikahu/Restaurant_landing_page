@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    margin-top: 1rem;
+    line-height: 2;
+    background-color: white;
+}
+header {
+    background-color: darkred;
+    color: orangered;
+    padding: 20px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+.hero {
+    background: url(https://media.istockphoto.com/id/670563754/photo/grilled-lamb-meat-with-tomato-salad-and-ugali.jpg?s=612x612&w=is&k=20&c=hQJDJc5WOPi_otnT6m60caHasjN5rpSLZz_mTRvuOjU=) no-repeat center center/cover;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px white;
+    text-align:center;
+}
+.hero iframe{ 
+    margin-top: 20px;
+    width: 80%;
+    max-width: 560px;
+    height: 250px;
+    border: none;
+}
+.menu{
+    padding: 35px;
+    text-align: center;
+    background-color: pink;
+}
+.menu h2{
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+.menu-items
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    gap : 2rem;
+    font-size: 24px;
+}
+.menu-item{
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 300px;
+    text-align: center;
+}
+.menu-item img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border-bottom:1px solid white;
+    border-color: black;
+
+}
+.menu-item p{
+    font-size: 20px;
+    padding: 2rem;
+    color: black;
+    font-style: italic;
+    margin-top: 10px;
+}
+.reservation{
+    padding: 35px;
+    text-align: center;
+    background-color: pink;
+    margin:1rem auto;
+    max-width: 550px;
+    border-radius: 10px;
+    box-shadow: black;    
+}
+.reservation h2{
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+.reservation-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 350px;
+    margin: 0 auto;
+
+}
